@@ -6,4 +6,4 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!\n"
 board = [" ", " ", " ", " ", " ", " ", " "," ", " "]
 puts "Where would you like to go?\n"
-user_input = gets.to_i + 1
+input = gets.strip
