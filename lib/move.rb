@@ -11,3 +11,7 @@ def input_to_index(user_input)
   gets = user_input.to_i
   #converted_input = input_to_index(user_input.to_i (- 1))
 end
+
+def converted_input(user_input)
+  user_input = user_input.to_i - 1
+end
